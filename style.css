@@ -8,12 +8,27 @@
     font-size: 125%;
     padding: 2%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.navbar ul li{
+ul li{
     display: inline-block;
     color:rgb(130, 27, 116);
     font-family: 'Arial Narrow Bold';
     margin-top: 5%;
+    margin-left: 10px;
+}
+li a{
+    margin-left: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: slateblue;
+}
+
+li a:hover{
+    color: #fff;
+    border-bottom: 4px solid slateblue;
+    
 }
 .bgbody{
     background-image: url("https://wallpaperset.com/w/full/8/e/0/93843.jpg");
@@ -161,8 +176,7 @@
     opacity: 1;
   }
   
-  /* About section styles */
-  .about {
+.about {
     max-width: 800px;
     margin: 0 auto;
     padding: 50px;
@@ -178,4 +192,3 @@
     font-size: 18px;
     line-height: 1.5;
   }
-
