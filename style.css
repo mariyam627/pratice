@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-color: rgb(235, 59, 194);
+    color: aliceblue;
+    font-size: 125%;
+    padding: 2%;
+    display: flex;
+}
+.navbar ul li{
+    display: inline-block;
+    color:rgb(130, 27, 116);
+    font-family: 'Arial Narrow Bold';
+    margin-top: 5%;
+}
+.bgbody{
+    background-image: url("https://wallpaperset.com/w/full/8/e/0/93843.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#title{
+    color: white;
+    font-size: 50px;
+}
+#description{
+    color: white;
+}
+#survey-form{
+    background-color: rgb(227, 33, 195);
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding: 5%;
+    opacity: 0.9;
+    color: aliceblue;
+    border-radius: 1%;
+    font-size: 25px;
+}
+#name{
+    width: 95%;
+    padding: 2%;
+    border-radius: 0.35rem;
+}
+#email{
+    width: 95%;
+    padding: 2%;
+    border-radius: 0.35rem;
+}
+#number{
+    width: 95%;
+    padding: 2%;
+    border-radius: 0.35rem;
+}
+#dropdown{
+    width: 100%;
+    padding: 2%;
+    border-radius: 0.35rem;
+}
+#comments{
+    width: 95%;
+    min-height: 120px;
+    padding: 2%;
+    border-radius: 0.35rem;
+}
+#submit{
+    padding: 2%;
+    background-color: green;
+    border-radius: 0.35rem;
+}
+.head{
+    display: flex;
+}
+.container1{
+    background-color: rgb(187, 87, 152);
+    width: 50%;
+}
+.container2{
+    background-color: rgb(149, 18, 103);
+    width: 50%;
+}
+#services{
+    text-align: center;
+    display: flex;
+    font-size: 500%;
+    color: white;
+    padding: 15%;
+    padding-bottom: 25%;
+    padding-left: 22%;
+    display: inline-block;
+    overflow:visible;
+    white-space: nowrap;
+}
+#section{
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    padding-top: 15%;
+    padding-right: 45%;
+    padding-bottom: 25%;
+}
+.sevices{
+    display: flex;
+    padding: 5%;
+}
+.one{
+    background-color: rgb(244, 53, 177);
+    width: 30%;
+    padding: 5%;
+    margin-top: -12rem;
+    color: white;
+    margin-right: 5%;
+}
+.two{
+    background-color: rgb(255, 131, 212);
+    width: 30%;
+    padding: 5%;
+    margin-top: -12rem;
+    color: black;
+    margin-right: 5%;
+}
+.three{
+    background-color: rgb(244, 53, 177);
+    padding: 5%;
+    width: 30%;
+    margin-top: -12rem;
+    color: white;
+}
+#effects{
+    font-size: 200%;
+    text-align: center;
+    color: rgb(182, 52, 149);
+}
+:root {
+    --pink: #f45da8;
+    --lavender: #ff92ff;
+    --purple: #9a12d9;
+}
+.tech{
+    background-image: url("https://wallpaperaccess.com/full/1943075.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  .slider img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .slider img.active {
+    opacity: 1;
+  }
+  
+  /* About section styles */
+  .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: var(--lavender);
+    color: var(--purple);
+  }
+  .about h2 {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: var(--pink);
+  }
+  .about p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
